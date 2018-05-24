@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Pizza Menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">  <!-- Define the viewport to control the page's dimensions and scaling for different devices-->
+		<link rel="stylesheet" href="Pizza_menu_css.css">
+	</head>
+		
+	<body>
+		<!-- title -->
+		<div class="container">
+			<h1 class="display-2">Pizza Menu</h1>  <!-- this is the title that displays on the page-->
+			<h2 class="lead">All of our ingredients are top quality!</h2>
+		</div>
+  
+	  <!-- size selection:-->
+	  <div class="btn-group" id="sizeBtns" data-toggle="buttons">
+		<p>Select size:
+			  &nbsp;&nbsp;
+ 			  <label class="btn btn-primary active">    <!-- 'active' makes this button appear pressed-->
+				<input type="radio" name="size" value='Personal (10")' autocomplete="off" checked> Personal (10")</input>
+			  </label> 
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+			  <label class="btn btn-primary"> 
+				<input type="radio" name="size" value='Medium (12")' autocomplete="off"> Medium (12")</input>
+			  </label> 
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+			  <label class="btn btn-primary"> 
+				<input type="radio" name="size" value='Large (14")' autocomplete="off"> Large (14")</input>
+			  </label> 
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			  <label class="btn btn-primary"> 
+				<input type="radio" name="size" value='Extra Large (16")' autocomplete="off"> Extra Large (16")</input>
+			  </label> 
+			</p>
+	  </div>
+	  
+	      <!-- Checkbox: Meats selection: -->
+		  <div class="btn-group" id="meatBtns" data-toggle="buttons">
+		  <p>Select any number of meats:
+		  &nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Pepperoni" autocomplete="off"> Pepperoni
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Sausage" autocomplete="off"> Sausage
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Canadian Bacon" autocomplete="off"> Canadian Bacon
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Ground Beef" autocomplete="off"> Ground Beef
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Anchovy" autocomplete="off"> Anchovy
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="meats" value="Chicken" autocomplete="off"> Chicken
+		  </p>
+		  </div>
+		  
+		  <!-- Cheese selection: -->
+		  <div class="btn-group" id="cheeseBtns" data-toggle="buttons">
+			<p>Select cheese:
+			&nbsp;&nbsp;
+			  <label class="btn btn-primary active">
+				<input type="radio" name="cheese" value="Regular" autocomplete="off" checked> Regular
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="cheese" value="None" autocomplete="off"> None
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="cheese" value="Extra" autocomplete="off"> Extra
+			  </label>
+			  </p>
+		  </div>
+		  
+		  <!-- Crust selection: -->
+		  <div class="btn-group" id="crustBtns" data-toggle="buttons">
+			<p>Select crust:
+			&nbsp;&nbsp;
+			  <label class="btn btn-primary active">
+				<input type="radio" name="crust" value="Plain" autocomplete="off" checked> Plain
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="crust" value="Garlic Butter" autocomplete="off"> Garlic Butter
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="crust" value="Cheese Stuffed" autocomplete="off"> Cheese Stuffed
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="crust" value="Spicy" autocomplete="off"> Spicy
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="crust" value="House Special" autocomplete="off"> House Special
+			  </label>
+			  </p>
+		  </div>
+		  
+			<!-- Sauce selection: -->
+		  <div class="btn-group" id="sauceBtns" data-toggle="buttons">
+			<p>Select sauce:
+			&nbsp;&nbsp;
+			  <label class="btn btn-primary active">
+				<input type="radio" name="sauce" value="Marinara" autocomplete="off" checked> Marinara
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="sauce" value="White" autocomplete="off"> White
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="sauce" value="Barbeque" autocomplete="off"> Barbeque
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="radio" name="sauce" value="None" autocomplete="off"> None
+			  </label>
+			  </p>
+		  </div>
+		  
+		  <!-- Checkbox: Veggie selection: -->
+		  <div class="btn-group" id="veggieBtns" data-toggle="buttons">
+			<p>Select any number of veggies:
+			&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Tomatoes" autocomplete="off"> Tomatoes
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Onions" autocomplete="off"> Onions
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Olives" autocomplete="off"> Olives
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Green Peppers" autocomplete="off"> Green Peppers
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Mushrooms" autocomplete="off"> Mushrooms
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Pineapple" autocomplete="off"> Pineapple
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Spinach" autocomplete="off"> Spinach
+			  </label>
+			  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			  <label class="btn btn-primary">
+				<input type="checkbox" name="veggies" value="Jalapeño" autocomplete="off"> Jalapeño  
+			  </label>
+			  </p>
+		  </div>
+		
+		<!-- Trigger the Modal -->
+		<div class="order-btn">
+			<button id="myBtn">REVIEW ORDER</button>
+		</div>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+			  <!-- Modal content -->
+		  <div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Order Summary</h2>
+			   <div class="table-container">
+				  <table id="myTable" class="table">    <!-- do i need the class=table? -->
+				  </table>
+			   </div>
+		  </div>
+		</div>
+		
+		<!-- footer -->
+			<small><a class="nav-link active" href="#">Coupons</a></small>&nbsp;&nbsp;
+			<small><a class="nav-link active" href="#">Daily Specials</a></small>&nbsp;&nbsp;
+			<small><a class="nav-link" href="#">customercare@123pizza.com</a></small>&nbsp;&nbsp;
+			<small><a class="nav-link" href="#">&copy;2018 123Pizza &reg;</a></small>
+		
+		<script src="Pizza_menu_js.js"> </script>
+	</body>
+</html>
+

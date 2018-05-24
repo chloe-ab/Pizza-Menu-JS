@@ -1,0 +1,104 @@
+h1 {
+	color:red;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size: 3em;
+	font-weight:900;
+	font-style: italic;
+	text-transform:uppercase;
+	margin-bottom:0;
+}
+
+h2 {
+	color:black;
+	font-family:sans-serif;
+	font-size: 1em;
+	margin-bottom:2.5em;
+}
+
+body {
+    background-color: #fff;
+}
+
+p {
+    border: 2px solid red;
+    border-radius: 5px;
+	width: 1200px;
+    padding: 25px;
+    margin: 5px;
+}
+
+.btn-group {
+	color:black;
+	font-family:sans-serif;
+	font-size: 0.9em;
+}
+
+
+.order-btn {
+        width: 300px;
+        height: 50px;
+		padding-top: 40px; 
+		padding-bottom: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+button {
+	color:black;
+	font-family:sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* % from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+	height: 50% /* % of window height*/
+	 /*text-align: left; */
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid red;
+  color:black;
+  font-family:sans-serif;
+  font-size: 1em;
+
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: bold;
+    cursor: pointer;
+}
